@@ -1,3 +1,7 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
+[![Build Status](https://travis-ci.org/peterli110/discreteprobability.svg?branch=master)](https://travis-ci.org/peterli110/discreteprobability)
+[![Documentation](https://img.shields.io/badge/Documentation-GoDoc-green.svg)](https://godoc.org/github.com/peterli110/discreteprobability)
+
 Discrete Probability Generator in Golang
 =================================
 Weighted random is a golang implementation of discrete probability distribution, 
