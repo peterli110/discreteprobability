@@ -22,17 +22,17 @@ float64Values := []float64{1.1, 2.2, 3.3}
 stringValues := []string{"a", "b", "c"}
 weights := []float64{0.2, 0.5, 0.3}
 
-intRNG, err := discreteprobability.New(intValues, wegihts)
+intRNG, err := discreteprobability.New(intValues, weights)
 if err != nil {
     // Error handlers
 }
 
-float64RNG, err := discreteprobability.New(float64Values, wegihts)
+float64RNG, err := discreteprobability.New(float64Values, weights)
 if err != nil {
     // Error handlers
 }
 
-stringRNG, err := discreteprobability.New(stringValues, wegihts)
+stringRNG, err := discreteprobability.New(stringValues, weights)
 if err != nil {
     // Error handlers
 }
